@@ -3,7 +3,7 @@ import Experience from "./Experience";
 
 export function IntroText() {
   return (
-    <div className="text-2xl">
+    <div className="text-2xl py-10">
       <Typewriter
         onInit={(typewriter) => {
           typewriter

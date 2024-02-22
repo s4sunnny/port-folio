@@ -3,7 +3,7 @@ import { IntroText } from "./IntroText";
 export function Home() {
   return (
     <>
-      <div className="max-w-8xl mx-auto">
+      <div className="max-w-8xl mx-auto mb-20">
         <div className="flex mx-auto justify-between w-5/6 ">
           <div className="columns-2">
             <div className="w-full my-8 items-center">
