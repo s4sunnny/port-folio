@@ -4,6 +4,7 @@
 
 *{
     font-family: cursive;
+    background-color: rgb(0 0 0);
 }
 
 body::-webkit-scrollbar {

@@ -17,29 +17,29 @@ export function Nav() {
                   href="/"
                   className="flex gap-1 font-bold text-gray-700 items-center "
                 >
-                  <span className="text-3xl text-black">
+                  <span className="text-3xl text-white">
                     Sunny Pandey- Full stack developer
                   </span>
                 </a>
               </div>
               {/* primary */}
               <div className="hidden lg:flex gap-8 ">
-                <a href="#" className="text-xl text-black">
+                <a href="#" className="text-xl text-white">
                   Home
                 </a>
-                <a href="#" className="text-xl text-black">
+                <a href="#" className="text-xl text-white">
                   About
                 </a>
-                <a href="#" className="text-xl text-black">
+                <a href="#" className="text-xl text-white">
                   Experience
                 </a>
-                <a href="#" className="text-xl text-black">
+                <a href="#" className="text-xl text-white">
                   Skills
                 </a>
-                <a href="#" className="text-xl text-black">
+                <a href="#" className="text-xl text-white">
                   Projects
                 </a>
-                <a href="#" className="text-xl text-black">
+                <a href="#" className="text-xl text-white">
                   Social links
                 </a>
               </div>
