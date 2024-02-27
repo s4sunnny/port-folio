@@ -71,7 +71,7 @@ export function Experiences() {
                   <div className="bg-white md:flex md:flex-row">
                     <div className="bg-white mx-auto mb-6 flex w-36 items-center justify-center md:mx-0 md:w-96 lg:mb-0">
                       <img
-                        src="public\aplhaspecLogo.png"
+                        src={"/aplhaspecLogo.png"}
                         className="shadow-md dark:shadow-black/30"
                         alt="Company's logo"
                       />
@@ -81,7 +81,7 @@ export function Experiences() {
                         Company:&nbsp;
                         <span className="bg-white no-underline hover:underline text-black font-semibold">
                           <a
-                            className="bg-white font-normal"
+                            className="no-underline	bg-white font-normal"
                             href="https://alphaspec.in/"
                             target="_blank"
                           >
@@ -153,7 +153,7 @@ export function Experiences() {
                         Company:&nbsp;
                         <span className="bg-white no-underline hover:underline text-black font-semibold">
                           <a
-                            className="bg-white font-normal"
+                            className="no-underline	bg-white font-normal"
                             href="https://bahwancybertek.com/"
                             target="_blank"
                           >
