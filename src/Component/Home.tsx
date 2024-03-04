@@ -13,7 +13,7 @@ export function Home() {
           </div>
           <div className="items-center my-8">
             <img
-              src={"/sticker.png"}
+              src={"src/assets/images/sticker.png"}
               className="ml-20 max-w-lg rounded-lg profileImg"
               alt="Image"
             />
