@@ -7,10 +7,12 @@ export function Nav() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   return (
-    <div className="mt-2 w-11/12">
-      <nav className="bg-gray-300 drop-shadow-2xl rounded-2xl">
-        <div className="max-w-7xl mx-auto flex items-center justify-between h-16 px-4 border-b border-solid border-slate-600">
-          <div className="flex-shrink-0 font-bold tracking-wider">LOGO</div>
+    <div className="mt-3 w-11/12">
+      <nav className="bg-gray-200 drop-shadow-2xl h-14 rounded-3xl">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="flex-shrink-0 font-bold tracking-wider">
+            Sunny Pandey - Full stack developer
+          </div>
           <div className="hidden md:block">
             <Routes />
           </div>
