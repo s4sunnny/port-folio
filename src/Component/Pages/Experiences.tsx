@@ -1,12 +1,6 @@
 export function Experiences() {
   return (
-    <div className="h-full mx-auto">
-      {/* <div className="before:absolute md:before:mx-auto md:before:translate-x-0 before:h-0.5 before:w-full before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
-        <h1 className="flex items-center justify-center text-xl text-white shadow ">
-          Experience
-        </h1>
-      </div> */}
-      <br />
+    <div className="h-full mx-auto py-10">
       <div className="flex mx-auto text-white justify-between w-5/6 ">
         <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
           <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">

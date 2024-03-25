@@ -1,77 +1,39 @@
+import CountUp from "react-countup";
+import Experience from "../Utils/Experience";
+
 // import React from "react";
 export function Home() {
   return (
     <>
-      <div className="px-52 py-10">
-        <div className="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-3 bg-white dark:bg-gray-800">
-          <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
-            <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Very easy this was to integrate
-              </h3>
-              <p className="my-4">
-                If you care for your time, I hands down would go with this."
-              </p>
+      <div className="px-56 py-10">
+        <div className="grid border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-3 bg-white dark:bg-gray-800">
+          <figure className="flex flex-col items-center justify-center p-5 text-center bg-white border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
+            <blockquote className="mid-content">
+              <CountUp start={0} end={Number(Experience())} duration={5} />+
             </blockquote>
             <figcaption className="flex items-center justify-center ">
-              <img
-                className="rounded-full w-9 h-9"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
-                alt="profile picture"
-              />
-              <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                <div>Bonnie Green</div>
-                <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                  Developer at Open AI
-                </div>
-              </div>
+              <span className="text-black font-extrabold">
+                Year's of experience as a Software developer
+              </span>
             </figcaption>
           </figure>
-          <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
-            <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Very easy this was to integrate
-              </h3>
-              <p className="my-4">
-                If you care for your time, I hands down would go with this."
-              </p>
+          <figure className="flex flex-col items-center justify-center p-5 text-center bg-white border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
+            <blockquote className="mid-content">
+              <CountUp start={0} end={6} duration={5} />+
             </blockquote>
             <figcaption className="flex items-center justify-center ">
-              <img
-                className="rounded-full w-9 h-9"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
-                alt="profile picture"
-              />
-              <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                <div>Bonnie Green</div>
-                <div className="text-sm text-gray-500 dark:text-gray-400 ">
-                  Developer at Open AI
-                </div>
-              </div>
+              <span className="text-black font-extrabold">
+                Personal projects I've developed so far and still more to be
+                developed.
+              </span>
             </figcaption>
           </figure>
-          <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
-            <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Solid foundation for any project
-              </h3>
-              <p className="my-4">
-                Designing with Figma components that can be easily translated to
-                the utility classes of Tailwind CSS is a huge timesaver!"
-              </p>
+          <figure className="flex flex-col items-center justify-center p-5 text-center bg-white border-gray-200 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+            <blockquote className="mid-content">
+              <CountUp start={0} end={11} duration={5} />+
             </blockquote>
             <figcaption className="flex items-center justify-center ">
-              <img
-                className="rounded-full w-9 h-9"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
-                alt="profile picture"
-              />
-              <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                <div>Roberta Casas</div>
-                <div className="text-sm text-gray-500 dark:text-gray-400">
-                  Lead designer at Dropbox
-                </div>
-              </div>
+              <span className="text-black font-extrabold">Base skill I've</span>
             </figcaption>
           </figure>
         </div>
