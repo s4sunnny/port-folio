@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Presentation from "./Component/Landing-Page/Presentation";
 import { IntroText } from "./Component/Utils/IntroText";
 import { Experiences } from "./Component/Pages/Experiences";
+import Skills from "./Component/Pages/Skills";
 function App() {
   // const homeRef = useRef(null);
   // const experienceRef = useRef(null);
@@ -39,6 +40,7 @@ function App() {
         <div className="presentation">
           <Presentation />
           <Experiences />
+          <Skills />
         </div>
       </Fragment>
     </>

@@ -9,7 +9,7 @@ export function Nav() {
   return (
     <div className="mt-3 w-11/12">
       <nav className="bg-gray-200 drop-shadow-2xl h-14 rounded-3xl">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="max-w-7xl mx-auto flex items-center justify-between h-15 px-4">
           <div className="flex-shrink-0 font-bold tracking-wider">
             Sunny Pandey - Full stack developer
           </div>
