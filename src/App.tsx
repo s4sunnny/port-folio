@@ -22,7 +22,7 @@ function App() {
           className="absolute text-3xl text-white"
         >
           <a
-            className="hidden md:block no-underline"
+            className="hidden md:block no-underline text-white"
             target="_blank"
             href="https://instagram.com/s4sunny___"
           >

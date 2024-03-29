@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Routes } from "../../Routes";
+import { Button } from "@material-tailwind/react";
 // import { Bars3Icon } from "@heroicons/react/24/outline";
 
 export function Nav() {
@@ -9,12 +10,22 @@ export function Nav() {
   return (
     <div className="mt-3 w-11/12">
       <nav className="bg-gray-200 drop-shadow-2xl h-14 rounded-3xl">
-        <div className="max-w-7xl mx-auto flex items-center justify-between h-15 px-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-between h-14 px-4">
           <div className="flex-shrink-0 font-bold tracking-wider">
             Sunny Pandey - Full stack developer
           </div>
           <div className="hidden md:block">
-            <Routes />
+            {/* <Routes /> */}
+            <a target="_blank" href={"/resume/Resume.pdf"}>
+              <Button
+                style={{ backgroundColor: "#4d88ff" }}
+                size="md"
+                placeholder={""}
+                variant="gradient"
+              >
+                Download Resume
+              </Button>
+            </a>
           </div>
           <button
             type="button"
