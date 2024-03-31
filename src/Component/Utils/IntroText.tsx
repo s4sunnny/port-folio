@@ -11,9 +11,9 @@ export function IntroText() {
             // .pauseFor(1000)
             // .deleteAll()
             .typeString(
-              "Hey! My name is Sunny Bansidhar Pandey, and I'm a full stack developer. with " +
+              "Hey! My name is Sunny Bansidhar Pandey, and I'm a full-stack developer with " +
                 Experience() +
-                " of experience in web development, I have a strong command over both front-end and back-end technologies, allowing me to built complete and scalable applications."
+                " years of experience in web development. I have a strong command over front-end and back-end technologies, allowing me to build complete and scalable applications."
             )
             .start();
         }}
