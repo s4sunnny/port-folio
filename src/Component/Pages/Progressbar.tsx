@@ -9,11 +9,11 @@ const Progressbar = (props: Props) => {
   const strokeSize = "calc(440 - (440 * " + props.circlePercent + ") / 100)";
   return (
     <>
-      <div className="container">
+      <div className="containers">
         <div className="card">
           <div className="box">
             <div className="parcent">
-              <svg>
+              <svg className="svg">
                 <circle cx="50" cy="50" r="50"></circle>
                 <circle
                   style={{

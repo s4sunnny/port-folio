@@ -55,7 +55,7 @@ function Skills() {
             <div className="text-black font-extrabold px-10 py-1">
               Frontend--
             </div>
-            <div className="flex mx-auto text-white justify-start">
+            <div className="startBar flex mx-auto text-white justify-start">
               {frontEnd}
             </div>
           </div>
@@ -63,7 +63,7 @@ function Skills() {
             <div className="text-black font-extrabold px-10 py-1">
               Backend--
             </div>
-            <div className="flex mx-auto text-white justify-start w-5/6">
+            <div className="startBar flex mx-auto text-white justify-start w-5/6">
               {backEnd}
             </div>
           </div>
@@ -71,7 +71,7 @@ function Skills() {
             <div className="text-black font-extrabold px-10 py-1">
               Database--
             </div>
-            <div className="flex mx-auto text-white justify-start w-5/6">
+            <div className="startBar flex mx-auto text-white justify-start w-5/6">
               {database}
             </div>
           </div>

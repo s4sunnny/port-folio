@@ -4,6 +4,7 @@ import { IntroText } from "./Component/Utils/IntroText";
 // import { Experiences } from "./Component/Pages/Experiences";
 import Skills from "./Component/Pages/Skills";
 import { Home } from "./Component/Pages/Home";
+import Projects from "./Component/Pages/Projects";
 function App() {
   // const homeRef = useRef(null);
   // const experienceRef = useRef(null);
@@ -61,6 +62,7 @@ function App() {
       </figure>
       <div className="presentation">
         <Home />
+        <Projects />
         {/* <Experiences /> */}
         <Skills />
       </div>
