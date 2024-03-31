@@ -6,6 +6,8 @@ import {
   ListItemPrefix,
 } from "@material-tailwind/react";
 
+import { UserCircleIcon } from "@heroicons/react/24/solid";
+
 function SocialLinks() {
   return (
     <Card
@@ -92,6 +94,21 @@ function SocialLinks() {
               </span>
             </ListItemPrefix>
             &nbsp;Stack overflow
+          </ListItem>
+        </a>
+        <a
+          href="https://medium.com/@pandeysunny01"
+          target="_blank"
+          className="no-underline"
+        >
+          <ListItem
+            placeholder={""}
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-red-300 duration-300"
+          >
+            <ListItemPrefix placeholder={""}>
+              <UserCircleIcon className="h-5 w-5" />
+            </ListItemPrefix>
+            &nbsp;Medium
           </ListItem>
         </a>
         <a href="" target="_blank" className="no-underline">
