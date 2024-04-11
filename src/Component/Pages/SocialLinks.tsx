@@ -12,7 +12,7 @@ function SocialLinks() {
   return (
     <Card
       placeholder={""}
-      className="h-[calc(65vh-2rem)] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5"
+      className="h-[calc(75vh-2rem)] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5"
     >
       <div className="mb-2 p-4">
         <Typography placeholder={""} variant="h5" color="blue-gray">
