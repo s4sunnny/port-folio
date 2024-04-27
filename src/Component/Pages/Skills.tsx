@@ -33,7 +33,7 @@ function Skills() {
             <div className="text-black font-extrabold px-10 py-1">
               Backend--
             </div>
-            <div className="startBar flex mx-auto text-white justify-start w-5/6">
+            <div className="startBar flex mx-auto text-white justify-start">
               {SkillsLogoList().backend.map((obj, index) => {
                 return (
                   <>
@@ -54,7 +54,7 @@ function Skills() {
             <div className="text-black font-extrabold px-10 py-1">
               Database--
             </div>
-            <div className="startBar flex mx-auto text-white justify-start w-5/6">
+            <div className="startBar flex mx-auto text-white justify-start">
               {SkillsLogoList().database.map((obj, index) => {
                 return (
                   <>
