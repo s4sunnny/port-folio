@@ -1,0 +1,552 @@
+<Data>
+  <Group ID="CONTENT-SECTION" Name="Content section">
+    <Datum ID="BLOCK-LAYOUT" Type="SelectSingle" Name="Block Layout">
+      <Option>
+        <Display>1 column</Display>
+        <Value>1</Value>
+      </Option>
+      <Option>
+        <Display>2 columns</Display>
+        <Value>2</Value>
+      </Option>
+      <Option>
+        <Display>3 columns</Display>
+        <Value>3</Value>
+      </Option>
+      <Option>
+        <Display>4 columns</Display>
+        <Value>4</Value>
+      </Option>
+    </Datum>
+    <Datum ID="BACKGROUND-COLOR" Type="SelectSingle" Name="Background color">
+      <Option>
+        <Display>Yes</Display>
+        <Value>Yes</Value>
+      </Option>
+      <Option>
+        <Display>No</Display>
+        <Value>No</Value>
+      </Option>
+    </Datum>
+    <Datum ID="BACKGROUND-COLOR-CODE" Name="Backround color (if Yes)" Type="String"/>
+  </Group>
+  <Group ID="HEADING" Name="Heading section">
+    <Datum ID="section-title" Name="Heading" Type="String"/>
+    <Datum ID="section-intro" Name="Intro text" Type="Textarea"/>
+    <Datum ID="intro-only" Type="SelectSingle" Name="Intro only?">
+      <Option Selected="true">
+        <Display>No</Display>
+        <Value>No</Value>
+      </Option>
+      <Option>
+        <Display>Yes</Display>
+        <Value>Yes</Value>
+      </Option>
+    </Datum>
+  </Group>
+  <Group ID="COLUMN-GROUP" Name="Info block" Replicatable="true" CloneGroupID="INFOBLOCK-COLGROUP">
+    <Datum ID="Subheading" Name="Sub-heading" Type="String"/>
+    <Datum ID="Body" Name="Body" Type="Textarea"/>
+    <Datum ID="IMG" Name="Image" Type="Image">
+      <Image>
+        <Path>$URL_PREFIX/assets/cpc/uploads/</Path>
+        <Description/>
+      </Image>
+    </Datum>
+    <Datum ID="IMGTYPE" Type="SelectSingle" Name="Image Type">
+      <Option Selected="true">
+        <Display>Illustration</Display>
+        <Value>illustration</Value>
+      </Option>
+      <Option>
+        <Display>Illustration (Small)</Display>
+        <Value>illustration-small</Value>
+      </Option>
+      <Option>
+        <Display>Photography</Display>
+        <Value>photography</Value>
+      </Option>
+      <Option>
+        <Display>Icon</Display>
+        <Value>icon</Value>
+      </Option>
+      <Option>
+        <Display>Logo</Display>
+        <Value>logo</Value>
+      </Option>
+      <Option>
+        <Display>CPC Logo</Display>
+        <Value>cpc-logo</Value>
+      </Option>
+      <Option>
+        <Display>CPC Postmark</Display>
+        <Value>cpc-postmark</Value>
+      </Option>
+      <Option>
+        <Display>Custom</Display>
+        <Value>custom</Value>
+      </Option>
+    </Datum>
+    <Datum ID="VideoUrl" Name="VideoUrl" Type="String"/>
+    <Datum ID="VideoTitle" Name="VideoTitle" Type="String"/>
+    <Datum ID="CTA1" Name="Button 1 Text" Type="String"/>
+    <Datum ID="CTATYPE1" Type="SelectSingle" Name="Button 1 Type">
+      <Option Selected="true">
+        <Display>Link</Display>
+        <Value>link</Value>
+      </Option>
+      <Option>
+        <Display>Primary Button</Display>
+        <Value>button</Value>
+      </Option>
+      <Option>
+        <Display>Secondary Button</Display>
+        <Value>button secondary</Value>
+      </Option>
+    </Datum>
+    <Datum ID="CTALINK1" Name="Button 1 Link" Type="PageLink"/>
+    <Datum ID="CTAMODAL1" Type="SelectSingle" Name="Sign in Modal 1 (Optional)">
+      <Option Selected="true">
+        <Display/>
+        <Value/>
+      </Option>
+      <Option>
+        <Display>Shipping</Display>
+        <Value>shipping</Value>
+      </Option>
+    </Datum>
+    <Datum ID="CTACSS1" Name="Button 1 CSS Classes" Type="String"/>
+    <Datum ID="CTAID1" Name="Analytics 1 ID (Optional)" Type="String"/>
+    <Datum ID="CTACUSTMODALID1" Name="Custom Modal 1 ID (Optional)" Type="String"/>
+    <Datum ID="CTACUSTOMMODALBODY1" Name="CTA Custom Modal Body 1 (Optional)" Type="Textarea"/>
+    <Datum ID="CTA2" Name="Button 2 Text" Type="String"/>
+    <Datum ID="CTATYPE2" Type="SelectSingle" Name="Button 2 Type">
+      <Option Selected="true">
+        <Display>Link</Display>
+        <Value>link</Value>
+      </Option>
+      <Option>
+        <Display>Primary Button</Display>
+        <Value>button</Value>
+      </Option>
+      <Option>
+        <Display>Secondary Button</Display>
+        <Value>button secondary</Value>
+      </Option>
+    </Datum>
+    <Datum ID="CTALINK2" Name="Button 2 Link" Type="PageLink"/>
+    <Datum ID="CTAMODAL2" Type="SelectSingle" Name="Sign in Modal 2 (Optional)">
+      <Option Selected="true">
+        <Display/>
+        <Value/>
+      </Option>
+      <Option>
+        <Display>Shipping</Display>
+        <Value>shipping</Value>
+      </Option>
+    </Datum>
+    <Datum ID="CTACSS2" Name="Button 2 CSS Classes" Type="String"/>
+    <Datum ID="CTAID2" Name="Analytics 2 ID (Optional)" Type="String"/>
+    <Datum ID="CTACUSTMODALID2" Name="Custom Modal 2 ID (Optional)" Type="String"/>
+    <Datum ID="CTACUSTOMMODALBODY2" Name="CTA Custom Modal Body 2 (Optional)" Type="Textarea"/>
+    <Datum ID="CTA3" Name="Button 3 Text" Type="String"/>
+    <Datum ID="CTATYPE3" Type="SelectSingle" Name="Button 3 Type">
+      <Option Selected="true">
+        <Display>Link</Display>
+        <Value>link</Value>
+      </Option>
+      <Option>
+        <Display>Primary Button</Display>
+        <Value>button</Value>
+      </Option>
+      <Option>
+        <Display>Secondary Button</Display>
+        <Value>button secondary</Value>
+      </Option>
+    </Datum>
+    <Datum ID="CTALINK3" Name="Button 3 Link" Type="PageLink"/>
+    <Datum ID="CTAMODAL3" Type="SelectSingle" Name="Sign in Modal 3 (Optional)">
+      <Option Selected="true">
+        <Display/>
+        <Value/>
+      </Option>
+      <Option>
+        <Display>Shipping</Display>
+        <Value>shipping</Value>
+      </Option>
+    </Datum>
+    <Datum ID="CTACSS3" Name="Button 3 CSS Classes" Type="String"/>
+    <Datum ID="CTAID3" Name="Analytics 3 ID (Optional)" Type="String"/>
+    <Datum ID="CTACUSTMODALID3" Name="Custom Modal 3 ID (Optional)" Type="String"/>
+    <Datum ID="CTACUSTOMMODALBODY3" Name="CTA Custom Modal Body 3 (Optional)" Type="Textarea"/>
+    <Datum ID="OUTRO" Name="Outro" Type="Textarea"/>
+  </Group>
+  <Datum ID="OVERALLOUTRO" Name="Overall outro" Type="Textarea"/>
+</Data>
+
+---------------------------------------------------------------------------------------------------
+
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:exsl="http://exslt.org/common" exclude-result-prefixes="exsl">
+  <xsl:variable name="colLooper">
+    <xsl:call-template name="iterate">
+      <xsl:with-param name="cbDataGroup" select="/Properties/Data/Group[@Name='Info block']"/>
+      <xsl:with-param name="i" select="1"/>
+      <xsl:with-param name="colCounter" select="0"/>
+    </xsl:call-template>
+  </xsl:variable>
+
+<xsl:template name="CPC-info-block">
+    <xsl:variable name="cbId" select="/Properties/Datum[@Name='Section Id']"/>
+    <xsl:variable name="cbHeading" select="/Properties/Data/Group[@Name='Heading section']/Datum[@Name='Heading']"/>
+    <xsl:variable name="cbIntroText" select="/Properties/Data/Group[@Name='Heading section']/Datum[@Name='Intro text']"/>
+    <xsl:variable name="cbIntroOnly" select="/Properties/Data/Group[@Name='Heading section']/Datum[@Name='Intro only?']/Option[@Selected='true']/Value"/>
+    <xsl:variable name="associateId" select="/Properties/Datum[@Name='Associate with tab by Tab ID (optional)']"/>
+  <xsl:variable name="cbOverallOutroText" select="/Properties/Data/Datum[@Name='Overall outro']"/>
+    <xsl:variable name="colArray" select="exsl:node-set($colLooper)/colTotal" />
+    <xsl:variable name="blockLayout" select="/Properties/Data/Group[@Name='Content section']/Datum[@Name='Block Layout']/Option[@Selected='true']/Value" />
+
+   <div class="cpc-component">
+     <div class="cpc-cb cpc cpc-cb--col1">
+    <xsl:if test="($cbHeading != '') or ($cbIntroText != '') "> 
+        <div>
+            <xsl:attribute name="class">cell<xsl:if test="$cbIntroOnly != 'Yes' "> cpc-cb__heading</xsl:if></xsl:attribute>
+            <xsl:if test="$cbHeading != '' ">
+                <h2 in-context-edit="{/Properties/Data/Group[@Name='Heading section']/Datum[@Name='Heading']/@ID}">
+                       <xsl:if test="$cbId != ''">
+                   <xsl:attribute name="id"><xsl:value-of select="$cbId"/></xsl:attribute>
+              </xsl:if>
+                  <xsl:value-of select="$cbHeading" disable-output-escaping="yes" />
+
+              </h2>
+            </xsl:if>
+
+            <xsl:if test="$cbIntroText != '' ">
+                <div in-context-edit="{/Properties/Data/Group[@Name='Heading section']/Datum[@Name='Intro text']/@ID}">
+                  <xsl:value-of select="$cbIntroText" disable-output-escaping="yes" />
+              </div>
+            </xsl:if>
+        </div>
+    </xsl:if>
+    </div>
+      <div>
+        <xsl:attribute name="class">cpc-cb cpc-cb--col<xsl:value-of select="$blockLayout" /></xsl:attribute>
+        <xsl:if test="$blockLayout != '1' "><xsl:attribute name="role">list</xsl:attribute><xsl:attribute name="aria-labelledby"><xsl:value-of select="$cbId"/></xsl:attribute></xsl:if>
+
+        <xsl:for-each select="/Properties/Data/Group[@Name='Content block']">
+          <xsl:variable name="cbColumnWidth" select="Datum[@Name='Column width']/Option[@Selected='true']/Value" /> 
+          <xsl:variable name="cbOffset" select="Datum[@Name='Column offset']/Option[@Selected='true']/Value"/>
+          <xsl:variable name="endClass">
+            <xsl:if test="position() = last()"> end</xsl:if>
+          </xsl:variable>
+          <xsl:variable name="loopIndex" select="position()"/>
+          <xsl:variable name="cbSubheading" select="Datum[@Name='Sub-heading']" />
+
+          <xsl:variable name="cbSubheadingIDOLD" select="translate(concat($cbSubheading, '-', position()), ' ', '-')"   />
+          <xsl:variable name="cbSubheadingsID" select="concat(Datum[@Name='Sub-heading']/@ID, $cbId)" />
+          <xsl:variable name="cbBody" select="Datum[@Name='Body']" />
+
+            <!-- image for content item -->
+          <xsl:variable name="cbImagePath" select="Datum[@Name='Image']/Image/Path"/>
+          <xsl:variable name="cbImageDescription" select="Datum[@Name='Image']/Image/Description"/> 
+          <xsl:variable name="cbImageType" select="Datum[@Name='Image Type']/Option[@Selected='true']/Value" />
+          <xsl:variable name="video-url" select="Datum[@Name='VideoUrl']" />
+          <xsl:variable name="video-title" select="Datum[@Name='VideoTitle']" />
+          <xsl:variable name="cbButtonText" select="Datum[@Name='Button Text']" />
+          <xsl:variable name="cbButtonType" select="Datum[@Name='Button Type']/Option[@Selected='true']/Value" />
+          <xsl:variable name="cbButtonLink" select="Datum[@Name='Button Link']" />
+          <xsl:variable name="cbButtonCSSClass" select="Datum[@Name='Button CSS Classes']" />
+          <xsl:variable name="cbModal" select="Datum[@Name='Sign in Modal (Optional)']/Option[@Selected='true']/Value" />           
+          <xsl:variable name="cbAnalyticsID" select="Datum[@Name='Analytics ID (Optional)']/Option[@Selected='true']/Value" />
+          <xsl:variable name="cbButton1Text" select="Datum[@Name='Button 1 Text']" />
+          <xsl:variable name="cbButton1Type" select="Datum[@Name='Button 1 Type']/Option[@Selected='true']/Value" />
+          <xsl:variable name="cbButton1Link" select="Datum[@Name='Button 1 Link']" />
+          <xsl:variable name="cbModal1" select="Datum[@Name='Sign in Modal 1 (Optional)']/Option[@Selected='true']/Value" /> 
+          <xsl:variable name="cbButton1CSSClass" select="Datum[@Name='Button 1 CSS Classes']" />
+          <xsl:variable name="cbAnalyticsID1" select="Datum[@Name='Analytics 1 ID (Optional)']" />
+          <xsl:variable name="cbCustomModal1" select="Datum[@Name='Custom Modal 1 ID (Optional)']"/>
+          <xsl:variable name="cbCustomModalBody1" select="Datum[@Name='CTA Custom Modal Body 1 (Optional)']"/>
+          <xsl:variable name="cbButton2Text" select="Datum[@Name='Button 2 Text']" />
+          <xsl:variable name="cbButton2Type" select="Datum[@Name='Button 2 Type']/Option[@Selected='true']/Value" />
+          <xsl:variable name="cbButton2Link" select="Datum[@Name='Button 2 Link']" />
+          <xsl:variable name="cbModal2" select="Datum[@Name='Sign in Modal 2 (Optional)']/Option[@Selected='true']/Value" /> 
+          <xsl:variable name="cbButton2CSSClass" select="Datum[@Name='Button 2 CSS Classes']" />
+          <xsl:variable name="cbAnalyticsID2" select="Datum[@Name='Analytics 2 ID (Optional)']" />
+          <xsl:variable name="cbCustomModal2" select="Datum[@Name='Custom Modal 2 ID (Optional)']"/>
+          <xsl:variable name="cbCustomModalBody2" select="Datum[@Name='CTA Custom Modal Body 2 (Optional)']"/>
+          <xsl:variable name="cbButton3Text" select="Datum[@Name='Button 3 Text']" />
+          <xsl:variable name="cbButton3Type" select="Datum[@Name='Button 3 Type']/Option[@Selected='true']/Value" />
+          <xsl:variable name="cbButton3Link" select="Datum[@Name='Button 3 Link']" />
+          <xsl:variable name="cbModal3" select="Datum[@Name='Sign in Modal 3 (Optional)']/Option[@Selected='true']/Value" /> 
+          <xsl:variable name="cbButton3CSSClass" select="Datum[@Name='Button 3 CSS Classes']" />
+          <xsl:variable name="cbAnalyticsID3" select="Datum[@Name='Analytics 3 ID (Optional)']" />
+          <xsl:variable name="cbCustomModal3" select="Datum[@Name='Custom Modal 3 ID (Optional)']"/>
+          <xsl:variable name="cbCustomModalBody3" select="Datum[@Name='CTA Custom Modal Body 3 (Optional)']"/>
+          <xsl:variable name="cbOutro" select="Datum[@Name='Outro']" />
+
+          <xsl:if test="($cbBody != '') or ($cbSubheading != '')">
+            <div>
+               <xsl:attribute name="class">cell cpc-cb__content<xsl:if test="$blockLayout = 'feature' and (string-length($cbImagePath) > 1) and ($cbImagePath != '$URL_PREFIX/assets/cpc/uploads/')" > grid-x align-center</xsl:if> 
+                 <xsl:if test="($cbButton1Text != '' or $cbButton2Text != '' or $cbButton3Text != '')"> no-link</xsl:if></xsl:attribute>
+                 <xsl:attribute name="role"><xsl:if test="$blockLayout != '1' ">listitem</xsl:if></xsl:attribute>
+
+              <xsl:choose>
+                <xsl:when test="$video-url != ''">
+                  <div class="cell cpc-video-player">
+                    <button class="video-button" style="background-image: url({$cbImagePath});">
+                      <xsl:attribute name="aria-label">Video play <xsl:value-of select="$video-title"/></xsl:attribute>
+                    </button>
+                    <iframe class="videoIframe" tabindex="-1" src="" frameborder="0"
+                            data-src="{$video-url}" allow="autoplay; fullscreen"
+                            allowtransparency="true">
+                      <xsl:attribute name="title"><xsl:value-of select="$video-title"/></xsl:attribute>
+                    </iframe>
+                  </div>
+                </xsl:when>
+                <xsl:otherwise> 
+                  <xsl:if test="(string-length($cbImagePath) > 1) and ($cbImagePath != '$URL_PREFIX/assets/cpc/uploads/') ">
+                    <img>   
+                      <xsl:attribute name="src"><xsl:value-of select="$cbImagePath"/></xsl:attribute>
+                      <xsl:attribute name="class">cpc-cb__image cpc-cb__image--<xsl:value-of select="$cbImageType"/>
+                        <xsl:if test="$cbImageType = 'logo' and $cbButton1Type = 'link'"> cpc-cb__logoLinks</xsl:if> 
+                      </xsl:attribute>
+                      <xsl:attribute name="title"><xsl:value-of select="$cbImageDescription"/></xsl:attribute>
+                      <xsl:attribute name="alt"><xsl:value-of select="$cbImageDescription"/></xsl:attribute>
+                    </img>
+                  </xsl:if>
+                </xsl:otherwise>
+              </xsl:choose>
+
+              <xsl:choose>
+                <xsl:when test="($cbSubheading != '') and ($cbHeading != '')">
+                  <h3 in-context-edit="{Datum[@Name='Sub-heading']/@ID}">
+                    <xsl:attribute name="class">cpc-cb__sub-heading</xsl:attribute>
+                    <xsl:attribute name="id"><xsl:value-of select="$cbSubheadingsID" disable-output-escaping="yes"/></xsl:attribute>
+                    <xsl:value-of select="$cbSubheading" disable-output-escaping="yes" />
+
+                  </h3>
+                </xsl:when>
+                <xsl:when test="$cbSubheading != '' ">
+                  <h2 in-context-edit="{Datum[@Name='Sub-heading']/@ID}">
+                    <xsl:attribute name="class">cpc-cb__sub-heading</xsl:attribute>
+                    <xsl:attribute name="id"><xsl:value-of select="$cbSubheadingsID" disable-output-escaping="yes"/></xsl:attribute>
+                    <xsl:value-of select="$cbSubheading" disable-output-escaping="yes" />
+                  </h2>
+                </xsl:when>
+              </xsl:choose>
+
+              <xsl:choose>
+                <xsl:when test="$cbBody != '' "> 
+                  <div in-context-edit="{Datum[@Name='Body']/@ID}">
+                      <xsl:if test="$cbImageType != 'custom'"><xsl:attribute name="class">cpc-cb__text</xsl:attribute></xsl:if>
+                    <xsl:value-of select="$cbBody" disable-output-escaping="yes" />
+                  </div>
+                </xsl:when>
+              </xsl:choose>
+
+
+        <div>
+                   <xsl:if test="(($cbButton1Text !='' and $cbButton1Type != 'link') or ($cbButton2Text !='' and $cbButton2Type != 'link') or ($cbButton3Text !='' and $cbButton3Type != 'link'))">
+                   <xsl:attribute name="class">cpc-cb__cta</xsl:attribute>
+                     </xsl:if>
+              <xsl:if test="$cbButton1Text != '' ">
+         <xsl:choose>
+                     <xsl:when test="$cbButton1Type = 'link'">
+                       <a role="link" in-context-edit="{Datum[@Name='Button 1 Text']/@ID}">
+                         <xsl:choose>
+                            <xsl:when test="$cbButton1CSSClass != '' ">
+                                <xsl:attribute name="class"><xsl:value-of select="$cbButton1CSSClass"/></xsl:attribute>    
+                            </xsl:when>
+                              <xsl:otherwise> 
+                                 <xsl:attribute name="class">standalone</xsl:attribute>  
+                             </xsl:otherwise>                    
+                        </xsl:choose>
+                        <xsl:choose>
+                          <xsl:when test="$cbAnalyticsID1 != '' ">
+                            <xsl:attribute name="ID"><xsl:value-of select="$cbAnalyticsID1"/></xsl:attribute>
+                          </xsl:when>
+                        </xsl:choose>
+                        <xsl:attribute name="href"><xsl:value-of select="$cbButton1Link"/></xsl:attribute>
+                          <xsl:if test="$cbModal1 != ''">
+                        <xsl:attribute name="data-cpc-modal-secure-cta"><xsl:value-of select="$cbModal1"/></xsl:attribute>
+                        </xsl:if>                  
+                        <xsl:value-of select="$cbButton1Text" disable-output-escaping="yes" />
+                       </a>
+                      </xsl:when>
+                   <xsl:otherwise>
+                      <button in-context-edit="{Datum[@Name='Button 1 Text']/@ID}">
+                        <xsl:choose>
+                          <xsl:when test="$cbAnalyticsID1 != '' ">
+                            <xsl:attribute name="ID"><xsl:value-of select="$cbAnalyticsID1"/></xsl:attribute>
+                          </xsl:when>
+                        </xsl:choose>
+                        <xsl:attribute name="href"><xsl:value-of select="$cbButton1Link"/></xsl:attribute>
+                        <xsl:attribute name="class">  
+                          <xsl:value-of select="$cbButton1Type"/>
+                          <xsl:if test="string-length($cbButton1CSSClass) > 0">
+                          <xsl:value-of select="concat(' ', $cbButton1CSSClass)"/>
+                          </xsl:if>
+                        </xsl:attribute>
+                        <xsl:if test="$cbModal1 != ''">
+                        <xsl:attribute name="data-cpc-modal-secure-cta"><xsl:value-of select="$cbModal1"/></xsl:attribute>
+                        </xsl:if>                  
+                        <xsl:value-of select="$cbButton1Text" disable-output-escaping="yes" />
+                      </button>
+                     </xsl:otherwise>
+               </xsl:choose>
+
+              </xsl:if>
+
+              <xsl:if test="$cbButton2Text != '' ">
+         <xsl:choose>
+                     <xsl:when test="$cbButton2Type = 'link'">
+                       <a role="link" in-context-edit="{Datum[@Name='Button 2 Text']/@ID}">
+                          <xsl:choose>
+                            <xsl:when test="$cbButton2CSSClass != '' ">
+                                <xsl:attribute name="class"><xsl:value-of select="$cbButton2CSSClass"/></xsl:attribute>    
+                            </xsl:when>
+                              <xsl:otherwise> 
+                                 <xsl:attribute name="class">standalone</xsl:attribute>  
+                             </xsl:otherwise>                    
+                     </xsl:choose>
+                        <xsl:choose>
+                          <xsl:when test="$cbAnalyticsID2 != '' ">
+                            <xsl:attribute name="ID"><xsl:value-of select="$cbAnalyticsID2"/></xsl:attribute>
+                          </xsl:when>
+                        </xsl:choose>
+                        <xsl:attribute name="href"><xsl:value-of select="$cbButton2Link"/></xsl:attribute>
+                          <xsl:if test="$cbModal2 != ''">
+                        <xsl:attribute name="data-cpc-modal-secure-cta"><xsl:value-of select="$cbModal2"/></xsl:attribute>
+                        </xsl:if>                  
+                        <xsl:value-of select="$cbButton2Text" disable-output-escaping="yes" />
+                       </a>
+                      </xsl:when>
+                   <xsl:otherwise>
+                      <button in-context-edit="{Datum[@Name='Button 2 Text']/@ID}">
+                        <xsl:choose>
+                          <xsl:when test="$cbAnalyticsID2 != '' ">
+                            <xsl:attribute name="ID"><xsl:value-of select="$cbAnalyticsID2"/></xsl:attribute>
+                          </xsl:when>
+                        </xsl:choose>
+                        <xsl:attribute name="href"><xsl:value-of select="$cbButton2Link"/></xsl:attribute>
+                        <xsl:attribute name="class">
+                          <xsl:value-of select="$cbButton2Type"/>
+                          <xsl:if test="string-length($cbButton2CSSClass) > 0">
+                          <xsl:value-of select="concat(' ', $cbButton2CSSClass)"/>
+                          </xsl:if>
+                        </xsl:attribute>
+                        <xsl:if test="$cbModal2 != ''">
+                        <xsl:attribute name="data-cpc-modal-secure-cta"><xsl:value-of select="$cbModal2"/></xsl:attribute>
+                        </xsl:if>                  
+                        <xsl:value-of select="$cbButton2Text" disable-output-escaping="yes" />
+                      </button>
+                     </xsl:otherwise>
+               </xsl:choose>
+
+              </xsl:if>
+               <xsl:if test="$cbButton3Text != '' ">
+         <xsl:choose>
+                     <xsl:when test="$cbButton3Type = 'link'">
+                       <a role="button" in-context-edit="{Datum[@Name='Button 3 Text']/@ID}">
+                         <xsl:choose>
+                            <xsl:when test="$cbButton3CSSClass != '' ">
+                                <xsl:attribute name="class"><xsl:value-of select="$cbButton3CSSClass"/></xsl:attribute>    
+                            </xsl:when>
+                            <xsl:otherwise> 
+                                 <xsl:attribute name="class">standalone</xsl:attribute>  
+                             </xsl:otherwise>                    
+                      </xsl:choose>
+                        <xsl:choose>
+                          <xsl:when test="$cbAnalyticsID3 != '' ">
+                            <xsl:attribute name="ID"><xsl:value-of select="$cbAnalyticsID3"/></xsl:attribute>
+                          </xsl:when>
+                        </xsl:choose>
+                        <xsl:attribute name="href"><xsl:value-of select="$cbButton3Link"/></xsl:attribute>
+                          <xsl:if test="$cbModal3 != ''">
+                        <xsl:attribute name="data-cpc-modal-secure-cta"><xsl:value-of select="$cbModal3"/></xsl:attribute>
+                        </xsl:if>                  
+                        <xsl:value-of select="$cbButton3Text" disable-output-escaping="yes" />
+                       </a>
+                      </xsl:when>
+                   <xsl:otherwise>
+                      <button in-context-edit="{Datum[@Name='Button 3 Text']/@ID}">
+                        <xsl:choose>
+                          <xsl:when test="$cbAnalyticsID3 != '' ">
+                            <xsl:attribute name="ID"><xsl:value-of select="$cbAnalyticsID3"/></xsl:attribute>
+                          </xsl:when>
+                        </xsl:choose>
+                        <xsl:attribute name="href"><xsl:value-of select="$cbButton3Link"/></xsl:attribute>
+                        <xsl:attribute name="class">
+                           <xsl:value-of select="$cbButton3Type"/>
+                          <xsl:if test="string-length($cbButton3CSSClass) > 0">
+                          <xsl:value-of select="concat(' ', $cbButton3CSSClass)"/>
+                          </xsl:if>
+                        </xsl:attribute>
+                        <xsl:if test="$cbModal3 != ''">
+                        <xsl:attribute name="data-cpc-modal-secure-cta"><xsl:value-of select="$cbModal3"/></xsl:attribute>
+                        </xsl:if>                  
+                        <xsl:value-of select="$cbButton3Text" disable-output-escaping="yes" />
+                      </button>
+                     </xsl:otherwise>
+               </xsl:choose>
+              </xsl:if>
+                  </div>
+            </div>
+
+            </xsl:if>
+
+            <xsl:if test="$cbOutro != ''">
+                <div class="cpc-cb__outro">
+                  <div in-context-edit="{Datum[@Name='Outro']/@ID}"><xsl:value-of select="$cbOutro" disable-output-escaping="yes" /></div>                     
+              </div>
+            </xsl:if>
+
+            <xsl:if test="$cbCustomModalBody1 != '' ">
+              <xsl:value-of select="$cbCustomModalBody1" disable-output-escaping="yes" />
+            </xsl:if>
+
+            <xsl:if test="$cbCustomModalBody2 != '' ">
+              <xsl:value-of select="$cbCustomModalBody2" disable-output-escaping="yes" />
+            </xsl:if>
+
+            <xsl:if test="$cbCustomModalBody3 != '' ">
+              <xsl:value-of select="$cbCustomModalBody3" disable-output-escaping="yes" />
+            </xsl:if>
+
+        </xsl:for-each>
+    </div>
+    <xsl:if test="$cbOverallOutroText != '' ">
+      <div class="cpc-cb__overall-outro">
+        <div class="cpc-cb__overall-outro-content"><xsl:value-of select="$cbOverallOutroText" disable-output-escaping="yes" /></div>                     
+      </div>
+    </xsl:if>
+  </div> 
+
+
+
+  </xsl:template>
+  <xsl:template name="iterate">
+    <xsl:param name="cbDataGroup"/>
+    <xsl:param name="i" />
+    <xsl:param name="colCounter"/>
+    <xsl:param name="videoCounter" select="0"/>
+   <xsl:value-of select="$colCounter" disable-output-escaping="yes" />
+    <xsl:choose>
+      <xsl:when test="($colCounter > 4)">
+        <colTotal>true</colTotal>
+      </xsl:when>
+      <xsl:otherwise>
+        <colTotal>false</colTotal>
+      </xsl:otherwise>
+    </xsl:choose>
+
+    <xsl:if test="count($cbDataGroup) > $i">
+      <xsl:call-template name="iterate">
+        <xsl:with-param name="cbDataGroup" select="$cbDataGroup"/>
+        <xsl:with-param name="i" select="$i + 1"/>
+        <xsl:with-param name="colCounter" select="$colCounter"/>
+
+      </xsl:call-template>
+    </xsl:if>
+  </xsl:template>    
+</xsl:stylesheet>
